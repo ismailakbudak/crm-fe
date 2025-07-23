@@ -21,7 +21,10 @@ function App() {
           </h1>
           <h1 className="text-3xl test-title">
               Test title
+              {import.meta.env.VITE_SOME_KEY}
+              {import.meta.env.DB_PASSWORD}
           </h1>
+
 
           <h1>Vite + React</h1>
           <div className="card">
